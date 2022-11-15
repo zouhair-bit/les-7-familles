@@ -1,0 +1,5 @@
+--dark-jungle-green: #1f2421ff;
+--skobeloff: #216869ff;
+--shiny-shamrock: #49a078ff;
+--eton-blue: #9cc5a1ff;
+--platinum: #dce1deff;
