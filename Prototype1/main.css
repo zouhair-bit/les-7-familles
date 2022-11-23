@@ -55,3 +55,66 @@ img{
       border: 1px solid #ccc;
     }
 }
+
+/*Familles */
+.famille{
+    display: flex;
+    align-items: center;
+}
+
+.titre_famille{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+.img_titre_famille{
+    padding-right: 25px;
+}
+
+.Personnages{
+    display: flex;
+    align-items: center;
+    margin-top: 57px;
+}
+
+h2{
+    width: 150px;
+}
+
+/* Famille gauche */
+
+.img_famille_gauche{
+    padding-left: 55px;
+}
+
+.nom_famille_gauche{
+    padding-left: 30px;
+}
+
+/* Famille milieu */
+
+.text_famille_milieu{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+}
+
+/* Famille droite */
+
+.img_famille_droite{
+    padding-right: 55px;
+}
+
+.nom_famille_droite{
+    padding-right: 30px;
+}
+
+/* Famille 1 */
+.famille_1{
+    background-image: url(data/coleurverte.png);
+}
+footer{
+    background-image: url(data/coleurverte.png);
+}
