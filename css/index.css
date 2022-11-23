@@ -36,3 +36,47 @@ body {
     font-size: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* pop up */
+.overlay_flight_traveldil {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay_flight_traveldil:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup_flight_travlDil {
+    margin: 70px auto;
+    padding: 20px;
+    background: rgb(39, 39, 39);
+    border-radius: 5px;
+    width: 65%;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+.popup_flight_travlDil .close_flight_travelDl {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(191, 191, 191);
+}
+.popup_flight_travlDil .content_flightht_travel_dil {
+    max-height: 30%;
+    overflow: auto;
+}
+.image{
+    height: 10rem;
+}
