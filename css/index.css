@@ -6,7 +6,14 @@ body {
     background-repeat: no-repeat;
     color: blanchedalmond;
 }
+.title{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+
+
+/* TOP NAV */
 .topnav {
     overflow: hidden;
     font-family: 'Common Pixel' !important;
@@ -30,14 +37,11 @@ body {
     font-size: 17px;
 }
 .topnav a:hover {
-    background-color: #dacdcd42;}
+    background-color: #dacdcd21;}
 
-.title{
-    font-size: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
-/* pop up */
+
+/* POP UP */
 .overlay_flight_traveldil {
     display: inline-block;
     position: fixed;
@@ -45,6 +49,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    /* OVERLAY DIM OF THE BACKGROUND */
     background: rgba(0, 0, 0, 0.7);
     transition: opacity 500ms;
     visibility: hidden;
@@ -57,8 +62,10 @@ body {
 .popup_flight_travlDil {
     margin: 70px auto;
     padding: 20px;
+    /* pop up color */
     background: rgb(39, 39, 39);
-    border-radius: 5px;
+
+    border-radius: 15px;
     width: 65%;
     position: relative;
     transition: all 2s ease-in-out;
@@ -71,7 +78,8 @@ body {
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(191, 191, 191);
+    /* color of the X */
+    color: rgb(169, 169, 169);
 }
 .popup_flight_travlDil .content_flightht_travel_dil {
     max-height: 30%;
