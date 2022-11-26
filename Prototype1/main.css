@@ -13,17 +13,17 @@ body{
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 25px;
+    padding: 1rem 1.5rem;
     text-decoration: none;
 }
 
 img{
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
 }
 
 #alan{
-    padding-left: 40px;
+    transform: translateX(1.85rem);
 }
 
 
@@ -35,11 +35,13 @@ img{
 
 .topnav input[type=text] {
     float: right;
-    padding: 6px;
+    padding: 0.4rem;
     border: none;
-    margin-top: 40px;
-    margin-right: 16px;
-    font-size: 17px;
+    margin-top: 2.5rem;
+    margin-right: 1.2rem;
+    font-size: 1.1rem;
+    width: 16rem;
+    border-radius: 0.75rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -49,7 +51,7 @@ img{
       text-align: left;
       width: 100%;
       margin: 0;
-      padding: 14px;
+      padding: 1rem;
     }
     .topnav input[type=text] {
       border: 1px solid #ccc;
@@ -67,54 +69,46 @@ img{
     align-items: center;
     justify-content: center;
     display: flex;
-    padding-top: 30px;
+    padding-top: 1.75rem;
 }
 .img_titre_famille{
-    padding-right: 25px;
+    padding-right: 1.65rem;
 }
 
 .Personnages{
     display: flex;
     align-items: center;
-    margin-top: 57px;
+    margin-top: 2.65rem;
 }
 
 h2{
-    width: 150px;
+    width: 10rem;
 }
 
 /* Famille gauche */
 
 .img_famille_gauche{
-    padding-left: 55px;
+    padding-left: 2.8rem;
 }
 
 .nom_famille_gauche{
-    padding-left: 30px;
+    padding-left: 2.2rem;
 }
 
 /* Famille milieu */
 
 .text_famille_milieu{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     font-size: x-large;
 }
 
 /* Famille droite */
 
 .img_famille_droite{
-    padding-right: 55px;
+    padding-right: 2.2rem;
 }
 
 .nom_famille_droite{
-    padding-right: 30px;
-}
-
-/* Famille 1 */
-.famille_1{
-    background-image: url(data/coleurverte.png);
-}
-footer{
-    background-image: url(data/coleurverte.png);
+    padding-right: 2.8rem;
 }
