@@ -112,3 +112,10 @@ h2{
 .nom_famille_droite{
     padding-right: 2.8rem;
 }
+
+/* Familles général */
+
+.Personnages a{
+    text-decoration: none;
+    color: black;
+}
