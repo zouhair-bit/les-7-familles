@@ -1,13 +1,13 @@
 
 body{
     margin: 0;
+    background-color: #c5e09b5f;
+    overflow-y: hidden;
 }
 .topnav {
     overflow: hidden;
     background-color: #216869;
 }
-  
-
 .topnav a {
     float: left;
     display: block;
@@ -16,12 +16,10 @@ body{
     padding: 1rem 1.5rem;
     text-decoration: none;
 }
-
 img{
     width: 5rem;
     height: 5rem;
 }
-
 #alan{
     transform: translateX(1.85rem);
 }
@@ -31,7 +29,6 @@ img{
     background-color: #ddd;
     color: black;
 }
-  
 
 .topnav input[type=text] {
     float: right;
@@ -43,18 +40,17 @@ img{
     width: 16rem;
     border-radius: 0.75rem;
 }
-
 @media screen and (max-width: 600px) {
-    .topnav a, .topnav input[type=text] {
-      float: none;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 1rem;
+.topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
     }
     .topnav input[type=text] {
-      border: 1px solid #ccc;
+        border: 1px solid #ccc;
     }
 }
 
@@ -118,4 +114,54 @@ h2{
 .Personnages a{
     text-decoration: none;
     color: black;
+}
+
+
+
+/* POP UP */
+.overlay_flight_traveldil {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* OVERLAY DIM OF THE BACKGROUND */
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay_flight_traveldil:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup_flight_travlDil {
+    margin: 70px auto;
+    padding: 20px;
+    /* pop up color */
+    background: rgb(237, 237, 237);
+
+    border-radius: 15px;
+    width: 65%;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+.popup_flight_travlDil .close_flight_travelDl {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    /* color of the X */
+    color: rgb(0, 0, 0);
+}
+.popup_flight_travlDil .content_flightht_travel_dil {
+    max-height: 30%;
+    overflow: auto;
+}
+.image{
+    height: 10rem;
 }
