@@ -1,3 +1,26 @@
+/* hide scroll bar */
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent; 
+}
+
 body{
     background-color: #CFCFCF;
+}
+.topsection{
+    height: 25%;
+    text-align: center;
+}
+.textsection{
+    background-color: azure;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+.textboxLeft{
+    padding-left: 1rem;
+
+}
+.imageboxRight{
+    padding-right: 1rem;
 }

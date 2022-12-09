@@ -1,0 +1,118 @@
+
+body{
+    margin: 0;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Familles */
+.famille{
+    display: flex;
+    align-items: center;
+}
+
+.titre_famille{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 1%;
+}
+.img_titre_famille{
+    padding-right: 1.65rem;
+}
+
+.Personnages{
+    display: flex;
+    align-items: center;
+    padding-top: 8%;
+}
+
+h2{
+    width: 10rem;
+}
+
+/* Famille gauche */
+
+.img_famille_gauche{
+    padding-left: 2.8rem;
+}
+
+.nom_famille_gauche{
+    padding-left: 2.2rem;
+}
+
+/* Famille milieu */
+
+.text_famille_milieu{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size:140%;
+}
+
+/* Famille droite */
+
+.img_famille_droite{
+    padding-right: 2.2rem;
+}
+
+.nom_famille_droite{
+    padding-right: 2.8rem;
+}
+
+/* Familles général */
+
+.Personnages a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* POP UP */
+.overlay_flight_traveldil {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* OVERLAY DIM OF THE BACKGROUND */
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay_flight_traveldil:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup_flight_travlDil {
+    margin: 70px auto;
+    padding: 20px;
+    /* pop up color */
+    background: rgb(237, 237, 237);
+
+    border-radius: 15px;
+    width: 65%;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+.popup_flight_travlDil .close_flight_travelDl {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    /* color of the X */
+    color: rgb(0, 0, 0);
+}
+.popup_flight_travlDil .content_flightht_travel_dil {
+    max-height: 30%;
+    overflow: auto;
+}
+.image{
+    height: 10rem;
+}
