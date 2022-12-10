@@ -114,5 +114,7 @@ h2{
     overflow: auto;
 }
 .image{
-    height: 10rem;
+    height: 120px;
+    margin-top: 1%;
+    margin-right: 3%;
 }
