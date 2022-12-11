@@ -71,6 +71,7 @@ h2{
 
 /* POP UP */
 .overlay_flight_traveldil {
+    text-align: center;
     display: inline-block;
     position: fixed;
     top: 0;
@@ -117,4 +118,9 @@ h2{
     height: 120px;
     margin-top: 1%;
     margin-right: 3%;
+}
+.name-pop{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large
 }

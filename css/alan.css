@@ -5,11 +5,12 @@
 }
 
 body{
-    background-color: #CFCFCF;
+    background-color: #262626;
     font-family:Arial, Helvetica, sans-serif;
 }
 .topsection{
-    height: 25%;
+    padding-top: 1%;
+    height: 20%;
     text-align: center;
 }
 .textsection{
@@ -19,9 +20,15 @@ body{
     border-radius: 10px;
 }
 .textboxLeft{
-    padding-left: 1rem;
+    padding-left: 1%;
+    text-align: left;
 
 }
-.imageboxRight{
-    padding-right: 1rem;
+.imagebox{
+    text-align: right;
+    padding-right: 5%;
+    padding-left: 1%;
+}
+.topnav{
+    border-color: #d4d4d4dc;
 }
