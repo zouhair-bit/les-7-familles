@@ -17,6 +17,10 @@
 .topnav {
     overflow: hidden;
 }
+
+#github{
+    transform: translateX(100%);
+}
 .topnav a {
     margin-bottom: 1rem;
     float: left;
